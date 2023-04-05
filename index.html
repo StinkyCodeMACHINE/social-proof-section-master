@@ -143,12 +143,41 @@
           display: block;
         }
 
+        .heading-and-paragraph {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+        }
+
+        .heading-and-paragraph>p, .heading-and-paragraph>h1 {
+          width: 80%;
+        }
+
         .ratings {
           padding-top: 1rem;
         }
         
-        .rating {
+        .ratings .rating {
           margin: 0.7rem auto;
+          width: 90%;
+          display: block;
+          text-align: center;
+          box-sizing: border-box;
+        }
+
+        .stars {
+          margin-right: 0;
+          justify-content: center;
+          margin-bottom: 1rem;
+        }
+
+        .lower-block {
+          display: block;
+        }
+
+        .lower-block article {
+          margin: 1rem 1.5rem;
         }
       }
 
